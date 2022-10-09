@@ -19,7 +19,7 @@ _____
 **Figure 1**: Classification report for the RandomOverSampler model.
 _____
 
-* **Accuracy Score**: 63.46%
+* **Accuracy Score**: 64.03%
 * **High-Risk Precision Score**: 0.01
 * **High-Risk Recall Score**: 0.66
 
@@ -31,7 +31,7 @@ _____
 **Figure 2**: Classification report for the SMOTE model.
 _____
 
-* **Accuracy Score**: 65.83%
+* **Accuracy Score**: 65.15%
 * **High-Risk Precision Score**: 0.01
 * **High-Risk Recall Score**: 0.61
 
@@ -43,7 +43,7 @@ _____
 **Figure 3**: Classification report for the ClusterCentroids model.
 _____
 
-* **Accuracy Score**: 54.43%
+* **Accuracy Score**: 54.44%
 * **High-Risk Precision Score**: 0.01
 * **High-Risk Recall Score**: 0.69
 
@@ -55,7 +55,7 @@ _____
 **Figure 4**: Classification report for the SMOTEENN model.
 _____
 
-* **Accuracy Score**: 65.77%
+* **Accuracy Score**: 65.51%
 * **High-Risk Precision Score**: 0.01
 * **High-Risk Recall Score**: 0.75
 
@@ -67,7 +67,7 @@ _____
 **Figure 5**: Classification report for the BalancedRandomForestClassifier model.
 _____
 
-* **Accuracy Score**: 78.77%
+* **Accuracy Score**: 78.78%
 * **High-Risk Precision Score**: 0.04
 * **High-Risk Recall Score**: 0.67
 
