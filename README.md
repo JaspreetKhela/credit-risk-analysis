@@ -21,7 +21,7 @@ _____
 
 * **Accuracy Score**: 63.46%
 * **High-Risk Precision Score**: 0.01
-* **High-Risk Recall Score**: 0.74
+* **High-Risk Recall Score**: 0.66
 
 ### [SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)
 _____
@@ -33,7 +33,7 @@ _____
 
 * **Accuracy Score**: 65.83%
 * **High-Risk Precision Score**: 0.01
-* **High-Risk Recall Score**: 0.63
+* **High-Risk Recall Score**: 0.61
 
 ### [ClusterCentroids](https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.ClusterCentroids.html)
 _____
@@ -45,7 +45,7 @@ _____
 
 * **Accuracy Score**: 54.43%
 * **High-Risk Precision Score**: 0.01
-* **High-Risk Recall Score**: 0.74
+* **High-Risk Recall Score**: 0.69
 
 ### [SMOTEENN](https://imbalanced-learn.org/stable/references/generated/imblearn.combine.SMOTEENN.html)
 _____
@@ -57,7 +57,7 @@ _____
 
 * **Accuracy Score**: 65.77%
 * **High-Risk Precision Score**: 0.01
-* **High-Risk Recall Score**: 0.74
+* **High-Risk Recall Score**: 0.75
 
 ### [BalancedRandomForestClassifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html)
 _____
@@ -80,8 +80,8 @@ _____
 _____
 
 * **Accuracy Score**: 92.54%
-* **High-Risk Precision Score**: 0.07
-* **High-Risk Recall Score**: 0.91
+* **High-Risk Precision Score**: 0.04
+* **High-Risk Recall Score**: 0.67
 
 ## Summary
 ### Comparison
