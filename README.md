@@ -12,31 +12,73 @@ The purpose of this analysis was to evaluate the performance of these models and
 The results of the accuracy, precision, and recall scores of all six machine learning models are summarized below. For the first four machine learning models, please refer to the credit_risk_resampling.ipynb file for more details. For the last two machine learning models, please refer to the credit_risk_ensemble.ipynb file for more details.
 
 ### [RandomOverSampler](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.RandomOverSampler.html)
+_____
+
+![RandomOverSampler_classification_report](https://user-images.githubusercontent.com/80941606/194734060-e8bb6946-e049-4a78-a94e-cdd37ed6b54d.png)
+
+**Figure 1**: Classification report for the RandomOverSampler model.
+_____
+
 * **Accuracy Score**: 63.46%
 * **High-Risk Precision Score**: 0.01
 * **High-Risk Recall Score**: 0.74
 
 ### [SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)
+_____
+
+![SMOTE_classification_report](https://user-images.githubusercontent.com/80941606/194734067-b7c0015c-63f5-4f05-b7fc-7a76ad8fa08e.png)
+
+**Figure 2**: Classification report for the SMOTE model.
+_____
+
 * **Accuracy Score**: 65.83%
 * **High-Risk Precision Score**: 0.01
 * **High-Risk Recall Score**: 0.63
 
 ### [ClusterCentroids](https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.ClusterCentroids.html)
+_____
+
+![ClusterCentroids_classification_report](https://user-images.githubusercontent.com/80941606/194734071-e00c7f9c-8a88-4fbb-a5cc-32a63166df2b.png)
+
+**Figure 3**: Classification report for the ClusterCentroids model.
+_____
+
 * **Accuracy Score**: 54.43%
 * **High-Risk Precision Score**: 0.01
 * **High-Risk Recall Score**: 0.74
 
 ### [SMOTEENN](https://imbalanced-learn.org/stable/references/generated/imblearn.combine.SMOTEENN.html)
+_____
+
+![SMOTEENN_classification_report](https://user-images.githubusercontent.com/80941606/194734073-0e7cd111-8554-43a1-9ac8-659dbb68147f.png)
+
+**Figure 4**: Classification report for the SMOTEENN model.
+_____
+
 * **Accuracy Score**: 65.77%
 * **High-Risk Precision Score**: 0.01
 * **High-Risk Recall Score**: 0.74
 
 ### [BalancedRandomForestClassifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html)
+_____
+
+![BalancedRandomForestClassifier_classification_report](https://user-images.githubusercontent.com/80941606/194734077-32092578-5448-4a1d-b13d-0249227634a7.png)
+
+**Figure 5**: Classification report for the BalancedRandomForestClassifier model.
+_____
+
 * **Accuracy Score**: 78.77%
 * **High-Risk Precision Score**: 0.04
 * **High-Risk Recall Score**: 0.67
 
 ### [EasyEnsembleClassifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.EasyEnsembleClassifier.html)
+_____
+
+[There was an error with one or many of the imported libaries, so the table could not be output]
+
+**Figure 6**: Classification report for the EasyEnsembleClassifier model.
+_____
+
 * **Accuracy Score**: 92.54%
 * **High-Risk Precision Score**: 0.07
 * **High-Risk Recall Score**: 0.91
