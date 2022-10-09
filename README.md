@@ -2,9 +2,9 @@
 
 ## Overview of the Analysis
 ### Purpose
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. In this project, different techniques to train and evaluate models with unbalanced classes were employed using the imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
+Determining credit risk is an inherently unbalanced (binary) classification problem, as good loans easily outnumber risky loans; in other words, the central idea in credit risk analysis is to determine whether or not a loan should be given out. In this project, different techniques to train and evaluate credit risk models with unbalanced classes were employed using the imbalanced-learn and scikit-learn libraries.
 
-Specifically, using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, the data was oversampled using the RandomOverSampler and SMOTE algorithms, undersampled using the ClusterCentroids algorithm, and over- and undersampled using the SMOTEENN algorithm. Then, two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were compared to predict credit risk.
+Specifically, using a credit card credit dataset from LendingClub, a peer-to-peer lending services company, the data was oversampled using the RandomOverSampler and SMOTE algorithms, undersampled using the ClusterCentroids algorithm, and over- and undersampled using the SMOTEENN algorithm. Then, two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were compared to predict credit risk.
 
 The purpose of this analysis was to evaluate the performance of these models and make a written recommendation on whether or not they should be used to predict credit risk.
 
